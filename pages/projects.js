@@ -1,14 +1,14 @@
 import React from 'react'
 import { Button, Text, Heading, Box, Link } from '@chakra-ui/react'
 
-const About = () => {
+const Project = () => {
     return (
         <div>
             <Heading p={100}>
-                This is the about page
+                This is the projects page
             </Heading>
         </div>
     )
 }
 
-export default About
+export default Project

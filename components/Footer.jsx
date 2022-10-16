@@ -119,7 +119,7 @@ export default function LargeWithNewsletter() {
                     <Stack align={'flex-start'}>
                         <ListHeader>Company</ListHeader>
                         <Link href={'/about'}>About us</Link>
-                        <Link href={'#'}>Blog</Link>
+                        <Link href={'https://www.linkedin.com/in/reid-mclain-678441179/'}>LinkedIn</Link>
                         <Link href={'#'}>Contact us</Link>
                         <Link href={'/pricing'}>Pricing</Link>
                         <Link href={'/testimonials'}>Testimonials</Link>

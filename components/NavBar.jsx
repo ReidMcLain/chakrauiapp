@@ -15,6 +15,7 @@ import {
     useDisclosure,
     useColorModeValue,
     Stack,
+    Links
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon, AddIcon } from '@chakra-ui/icons';
 import ToggleModeBtn from '../components/Togglemode'
@@ -77,7 +78,7 @@ export default function NavBar() {
                         </HStack>
                     </HStack>
                     <Flex alignItems={'center'}>
-                        <ToggleModeBtn />
+                        <ToggleModeBtn/>
                         <Menu>
                             <MenuButton
                                 as={Button}
@@ -114,9 +115,39 @@ export default function NavBar() {
                 {isOpen ? (
                     <Box pb={4} display={{ md: 'none' }}>
                         <Stack as={'nav'} spacing={4}>
-                            {Links.map((link) => (
-                                <NavLink key={link}>{link}</NavLink>
-                            ))}
+                        <Link
+                                px={2}
+                                py={1}
+                                rounded={'md'}
+                                _hover={{
+                                    textDecoration: 'none',
+                                    bg: useColorModeValue('gray.200', 'gray.700'),
+                                }}
+                                href={'/dashboard'}>
+                                Dashboard
+                            </Link>
+                            <Link
+                                px={2}
+                                py={1}
+                                rounded={'md'}
+                                _hover={{
+                                    textDecoration: 'none',
+                                    bg: useColorModeValue('gray.200', 'gray.700'),
+                                }}
+                                href={'/projects'}>
+                                Projects
+                            </Link>
+                            <Link
+                                px={2}
+                                py={1}
+                                rounded={'md'}
+                                _hover={{
+                                    textDecoration: 'none',
+                                    bg: useColorModeValue('gray.200', 'gray.700'),
+                                }}
+                                href={'/teams'}>
+                                Teams
+                            </Link>
                         </Stack>
                     </Box>
                 ) : null}

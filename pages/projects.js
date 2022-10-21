@@ -3,8 +3,7 @@ import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-re
 import { Button, Text, Heading, Box, Link, Image, Center, Stack, Flex } from '@chakra-ui/react'
 import 'pure-react-carousel/dist/react-carousel.es.css';
 
-export default class extends React.Component {
-    render() {
+export default function Projects() {
         return (
             <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
                 <Flex p={8} flex={1} align={'center'} justify={'center'}>
@@ -40,4 +39,3 @@ export default class extends React.Component {
                 // </Stack>
         );
     }
-}

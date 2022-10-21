@@ -36,6 +36,6 @@ export default function Projects() {
                         </CarouselProvider>
                     </Stack>
                 </Flex>
-                // </Stack>
-        );
+                 </Stack>
+        )
     }

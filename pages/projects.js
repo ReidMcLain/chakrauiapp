@@ -7,11 +7,10 @@ export default function Projects() {
     return (
             <Flex p={8} flex={1} align={'center'} justify={'center'}>
                 <Stack spacing={6} w={'full'} maxW={'lg'} >
-                    <CarouselProvider
+                    {/* <CarouselProvider
                         naturalSlideWidth={700}
                         naturalSlideHeight={700}
                         totalSlides={3}
-
                     >
                         <Slider>
                             <Slide index={0}>
@@ -32,7 +31,7 @@ export default function Projects() {
                         </Slider>
                         <ButtonBack>Back</ButtonBack>
                         <ButtonNext>Next</ButtonNext>
-                    </CarouselProvider>
+                    </CarouselProvider> */}
                 </Stack>
             </Flex>
     )

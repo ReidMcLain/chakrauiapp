@@ -24,9 +24,14 @@ import { FaGithub } from 'react-icons/fa';
 export default function NavBar() {
     const { isOpen, onOpen, onClose } = useDisclosure();
 
+    const dashColor = useColorModeValue('gray.100', 'gray.900');
+
+    const itemColor = useColorModeValue('gray.200', 'gray.700');
+
+
     return (
         <>
-            <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4}>
+            <Box bg={dashColor} px={4}>
                 <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
                     <IconButton
                         size={'md'}
@@ -48,7 +53,7 @@ export default function NavBar() {
                                 rounded={'md'}
                                 _hover={{
                                     textDecoration: 'none',
-                                    bg: useColorModeValue('gray.200', 'gray.700'),
+                                    bg: itemColor,
                                 }}
                                 href={'/dashboard'}>
                                 Dashboard
@@ -59,7 +64,7 @@ export default function NavBar() {
                                 rounded={'md'}
                                 _hover={{
                                     textDecoration: 'none',
-                                    bg: useColorModeValue('gray.200', 'gray.700'),
+                                    bg: itemColor,
                                 }}
                                 href={'/projects'}>
                                 Projects
@@ -70,7 +75,7 @@ export default function NavBar() {
                                 rounded={'md'}
                                 _hover={{
                                     textDecoration: 'none',
-                                    bg: useColorModeValue('gray.200', 'gray.700'),
+                                    bg: itemColor,
                                 }}
                                 href={'/teams'}>
                                 Teams
@@ -121,7 +126,7 @@ export default function NavBar() {
                                 rounded={'md'}
                                 _hover={{
                                     textDecoration: 'none',
-                                    bg: useColorModeValue('gray.200', 'gray.700'),
+                                    bg: itemColor,
                                 }}
                                 href={'/dashboard'}>
                                 Dashboard
@@ -132,7 +137,7 @@ export default function NavBar() {
                                 rounded={'md'}
                                 _hover={{
                                     textDecoration: 'none',
-                                    bg: useColorModeValue('gray.200', 'gray.700'),
+                                    bg: itemColor,
                                 }}
                                 href={'/projects'}>
                                 Projects
@@ -143,7 +148,7 @@ export default function NavBar() {
                                 rounded={'md'}
                                 _hover={{
                                     textDecoration: 'none',
-                                    bg: useColorModeValue('gray.200', 'gray.700'),
+                                    bg: itemColor,
                                 }}
                                 href={'/teams'}>
                                 Teams

@@ -1,6 +1,7 @@
 import React from 'react';
-import { Box } from '@chakra-ui/react';
+import { Box, Flex, useBreakpointValue } from '@chakra-ui/react';
 import ImageSlider from "../components/imageslider";
+
 export default function Projects() {
 
     const slides = [
@@ -10,17 +11,19 @@ export default function Projects() {
     ];
 
     const containerStyles = {
-        width: "1600px",
-        height: "800px",
+        width: "100%",
+        height: useBreakpointValue({ base: '200px', md: '800px' }),
         margin: "0 auto"
     };
 
     return (
-        <Box py={8}
+        <Flex py={8} mr={5} ml={5}
+            // width={{ sm: '25%', md: '50%', lg: '75%', xl: '100%' }}
+            // height={{ sm: '25%', md: '50%', lg: '75%', xl: '100%' }}
         >
             <Box style={containerStyles}>
                 <ImageSlider slides={slides} />
             </Box>
-        </Box>
+        </Flex>
     )
 };

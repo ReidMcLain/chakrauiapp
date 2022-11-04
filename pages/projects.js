@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box } from '@chakra-ui/react';
-import ImageSlider from "./imageslider";
+import ImageSlider from "../components/imageslider";
 export default function Projects() {
 
     const slides = [

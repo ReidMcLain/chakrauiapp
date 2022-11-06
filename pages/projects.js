@@ -17,7 +17,7 @@ export default function Projects() {
 
     return (
         <Flex py={8} mr={5} ml={5}
-            height={{ sm: '200px', md: '400px', lg: '600px', xl: '800px' }}
+            height={{ sm: '400px', lg: '600px', xl: '800px' }}
         >
             <Box style={containerStyles}>
                 <ImageSlider slides={slides} />

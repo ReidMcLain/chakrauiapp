@@ -119,7 +119,9 @@ export default function NavBar() {
                                 />
                             </MenuButton>
                             <MenuList>
-                                <MenuItem>Sign In</MenuItem>
+                                <MenuItem
+                                href={'/signin'}
+                                >Sign In</MenuItem>
                                 <MenuItem>Create Account</MenuItem>
                                 <MenuDivider />
                                 <MenuItem

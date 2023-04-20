@@ -94,7 +94,7 @@ export default function LargeWithNewsletter() {
                                 label={'Twitter'}
                                 target={'_blank'}
                                 rel={'noreferrer noopener'}
-                                href={'https://twitter.com'}
+                                href={'https://twitter.com/ReidMMcLain'}
                             >
                                 <FaTwitter />
                             </SocialButton>
@@ -102,7 +102,7 @@ export default function LargeWithNewsletter() {
                                 target={'_blank'}
                                 label={'YouTube'}
                                 rel={'noreferrer noopener'}
-                                href={'https://youtube.com'}
+                                href={'https://www.youtube.com/channel/UCjs_lc5pjb1oQCUiL4-6pyw'}
                             >
                                 <FaYoutube />
                             </SocialButton>
@@ -110,7 +110,7 @@ export default function LargeWithNewsletter() {
                                 label={'Instagram'}
                                 target={'_blank'}
                                 rel={'noreferrer noopener'}
-                                href={'https://instagram.com'}
+                                href={'https://www.instagram.com/reid.mclain/'}
                             >
                                 <FaInstagram />
                             </SocialButton>

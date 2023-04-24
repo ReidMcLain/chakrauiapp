@@ -57,7 +57,7 @@ export default function SplitScreen() {
                 <ModalHeader>Reid McLain</ModalHeader>
                 <ModalCloseButton />
                 <ModalBody>
-                  Hey there! My name's Reid McLain. I'm an aspiring software developer with interests in API's, chess, AI/Machine learning and all things Auburn Sports. I graduated from Auburn University in 2020 with a degree in Applied Mathematics and I love to build and create cool things. Thanks for checking out my website!
+                  Hey there! My name is Reid McLain. I am an aspiring software developer with interests in APIs, chess, AI/Machine learning and all things Auburn Sports. I graduated from Auburn University in 2020 with a degree in Applied Mathematics and I love to build and create cool things. Thanks for checking out my website!
                 </ModalBody>
                 <ModalFooter>
                   <Button variant='ghost' mr={3} onClick={onClose}>

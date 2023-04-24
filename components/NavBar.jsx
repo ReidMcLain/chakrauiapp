@@ -136,8 +136,8 @@ export default function NavBar() {
                                     textDecoration: 'none',
                                     bg: itemColor,
                                 }}
-                                href={'/dashboard'}>
-                                Dashboard
+                                href={'/sports'}>
+                                Sports
                             </Link>
                             <Link
                                 px={2}
@@ -147,19 +147,8 @@ export default function NavBar() {
                                     textDecoration: 'none',
                                     bg: itemColor,
                                 }}
-                                href={'/projects'}>
-                                Projects
-                            </Link>
-                            <Link
-                                px={2}
-                                py={1}
-                                rounded={'md'}
-                                _hover={{
-                                    textDecoration: 'none',
-                                    bg: itemColor,
-                                }}
-                                href={'/teams'}>
-                                Teams
+                                href={'/photos'}>
+                                Photos
                             </Link>
                         </Stack>
                     </Box>

@@ -1,12 +1,10 @@
 import React from 'react';
-import { Box, Flex, Heading, VStack, StackDivider } from '@chakra-ui/react';
+import { Box, Flex, Heading, VStack} from '@chakra-ui/react';
 import ImageSlider from "../components/imageslider";
-import InstagramPhotos from '../components/InstagramPhotos';
 
-export default function Projects() {
+export default function Photos() {
 
     const slides = [
-        { InstagramPhotos },
         { url: 'https://images.unsplash.com/photo-1627875764093-315831ac12f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60' },
         { url: 'https://images.unsplash.com/photo-1571432248690-7fd6980a1ae2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60' },
         { url: 'https://raw.githubusercontent.com/monsterlessonsacademy/monsterlessonsacademy/221-react-image-slider/public/image-1.jpg' },
@@ -31,7 +29,7 @@ export default function Projects() {
                 <Heading p={5}
                     style={{ textDecoration: 'none' }}
                 >
-                    Learn about me!
+                    A custom picture slider
                 </Heading>
                 <Box style={containerStyles}
                 height={{ sm: '400px', md: '600px', xl: '800px' }}

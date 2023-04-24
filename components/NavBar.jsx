@@ -86,8 +86,8 @@ export default function NavBar() {
                                     textDecoration: 'none',
                                     bg: itemColor,
                                 }}
-                                href={'/projects'}>
-                                Projects
+                                href={'/sports'}>
+                                Sports
                             </Link>
                             <Link
                                 px={2}
@@ -97,8 +97,8 @@ export default function NavBar() {
                                     textDecoration: 'none',
                                     bg: itemColor,
                                 }}
-                                href={'/teams'}>
-                                Teams
+                                href={'/photos'}>
+                                Photos
                             </Link>
                         </HStack>
                     </HStack>
@@ -119,11 +119,6 @@ export default function NavBar() {
                                 />
                             </MenuButton>
                             <MenuList>
-                                <MenuItem
-                                href={'/signin'}
-                                >Sign In</MenuItem>
-                                <MenuItem>Create Account</MenuItem>
-                                <MenuDivider />
                                 <MenuItem
                                     as={Link}
                                     href={'https://github.com/ReidMcLain/'}

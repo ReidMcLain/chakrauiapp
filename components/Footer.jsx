@@ -12,7 +12,7 @@ import {
     useColorModeValue,
 } from '@chakra-ui/react';
 import React from 'react';
-import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { BiMailSend } from 'react-icons/bi';
 
 const Logo = (props) => {
@@ -114,23 +114,27 @@ export default function LargeWithNewsletter() {
                             >
                                 <FaInstagram />
                             </SocialButton>
+                            <SocialButton
+                                label={'Linkedin'}
+                                target={'_blank'}
+                                rel={'noreferrer noopener'}
+                                href={'https://www.linkedin.com/in/reid-mclain-678441179/'}
+                            >
+                                <FaLinkedin />
+                            </SocialButton>
                         </Stack>
                     </Stack>
                     <Stack align={'flex-start'}>
                         <ListHeader>Company</ListHeader>
                         <Link href={'/about'}>About us</Link>
-                        <Link href={'https://www.linkedin.com/in/reid-mclain-678441179/'}>LinkedIn</Link>
-                        <Link href={'#'}>Contact us</Link>
                         <Link href={'/pricing'}>Pricing</Link>
                         <Link href={'/testimonials'}>Testimonials</Link>
                     </Stack>
                     <Stack align={'flex-start'}>
                         <ListHeader>Support</ListHeader>
-                        <Link href={'#'}>Help Center</Link>
                         <Link href={'#'}>Terms of Service</Link>
                         <Link href={'#'}>Legal</Link>
                         <Link href={'#'}>Privacy Policy</Link>
-                        <Link href={'#'}>Status</Link>
                     </Stack>
                     <Stack align={'flex-start'}>
                         <ListHeader>Stay up to date</ListHeader>

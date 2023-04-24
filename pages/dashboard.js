@@ -60,7 +60,7 @@ export default function SplitScreen() {
                   Hey there! My name's Reid McLain. I'm an aspiring software developer with interests in API's, chess, AI/Machine learning and all things Auburn Sports. I graduated from Auburn University in 2020 with a degree in Applied Mathematics and I love to build and create cool things. Thanks for checking out my website!
                 </ModalBody>
                 <ModalFooter>
-                  <Button variant="ghost" mr={3} onClick={onClose}>
+                  <Button variant='ghost' mr={3} onClick={onClose}>
                     Close
                   </Button>
                 </ModalFooter>
@@ -75,7 +75,7 @@ export default function SplitScreen() {
           src={
             'https://acegif.com/wp-content/uploads/2021/4fh5wi/welcome-15.gif'
           }
-          alt="Welcome"
+          alt='Welcome'
         />
       </Flex>
     </Stack>

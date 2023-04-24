@@ -49,7 +49,7 @@ export default function SplitScreen() {
           </Text>
           <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
             <Button rounded={'full'} onClick={onOpen}>
-              Click Here to learn more about the Creator of this Website!
+              Learn about me!
             </Button>
             <Modal isOpen={isOpen} onClose={onClose}>
               <ModalOverlay />

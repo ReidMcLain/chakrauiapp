@@ -30,6 +30,7 @@ export default function NavBar() {
 
     const Logo = (props) => {
         return (
+            <Link href={'/dashboard'}>
             <svg
                 height={32}
                 viewBox="0 0 120 28"
@@ -44,6 +45,7 @@ export default function NavBar() {
                     fill="#2F855A"
                 />
             </svg>
+            </Link>
         );
     };
 
@@ -67,17 +69,6 @@ export default function NavBar() {
                             spacing={4}
                             display={{ base: 'none', md: 'flex' }}
                         >
-                            <Link
-                                px={2}
-                                py={1}
-                                rounded={'md'}
-                                _hover={{
-                                    textDecoration: 'none',
-                                    bg: itemColor,
-                                }}
-                                href={'/dashboard'}>
-                                Dashboard
-                            </Link>
                             <Link
                                 px={2}
                                 py={1}

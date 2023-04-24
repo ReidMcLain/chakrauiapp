@@ -1,16 +1,16 @@
 import React from 'react'
 import { Image, Center } from '@chakra-ui/react'
 
-const Pricing = () => {
+const legal = () => {
     return (
         <div>
             <Center p={100} >
                 <Image
-                    src="https://media.tenor.com/6PFS7ABeJGEAAAAC/dr-evil-one-billion-dollars.gif"
+                    src="https://abovethelaw.com/uploads/2015/03/saul-3.jpg"
                 />
             </Center>
         </div>
     )
 }
 
-export default Pricing
+export default legal

@@ -29,7 +29,7 @@ export default function Photos() {
                 <Heading p={5}
                     style={{ textDecoration: 'none' }}
                 >
-                    A custom picture slider
+                    A custom photo slider
                 </Heading>
                 <Box style={containerStyles}
                 height={{ sm: '400px', md: '600px', xl: '800px' }}

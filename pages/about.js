@@ -10,7 +10,7 @@ import {
     Button,
     useColorModeValue,
   } from '@chakra-ui/react';
-  
+
   export default function SocialProfileWithImage() {
     return (
       <Center py={6}>
@@ -33,8 +33,8 @@ import {
             <Avatar
               size={'xl'}
               src={
-                'https://media-exp1.licdn.com/dms/image/D4E03AQF78oz30YGsZA/profile-displayphoto-shrink_800_800/0/1644865133446?e=1671667200&v=beta&t=zlVIuOOhd3Hv2Th1Cyc9V_qQCTTOBBhhoqPKIfZ_-dc'
-              }
+                'https://media.licdn.com/dms/image/D4E03AQF78oz30YGsZA/profile-displayphoto-shrink_800_800/0/1644865133446?e=1687996800&v=beta&t=eLjt9AlNog7DKhMfi9wQTo42QQ1Uu31CVkoUG69zTPQ'    
+                }
               alt={'Author'}
               css={{
                 border: '2px solid white',
@@ -47,7 +47,7 @@ import {
               <Heading fontSize={'2xl'} fontWeight={500} fontFamily={'body'}>
                 Reid McLain
               </Heading>
-              <Text color={'gray.500'}>Full Stack Developer</Text>
+              <Text color={'gray.500'}>Software Developer</Text>
             </Stack>
   
             <Stack direction={'row'} justify={'center'} spacing={6}>

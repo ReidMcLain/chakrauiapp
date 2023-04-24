@@ -13,10 +13,10 @@ import {
 } from '@chakra-ui/react';
 import React from 'react';
 import { FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
-import { BiMailSend } from 'react-icons/bi';
 
 const Logo = (props) => {
     return (
+        <Link href={'/dashboard'}>
         <svg
             height={32}
             viewBox="0 0 120 28"
@@ -31,6 +31,7 @@ const Logo = (props) => {
                 fill="#2F855A"
             />
         </svg>
+        </Link>
     );
 };
 
@@ -132,31 +133,9 @@ export default function LargeWithNewsletter() {
                     </Stack>
                     <Stack align={'flex-start'}>
                         <ListHeader>Support</ListHeader>
-                        <Link href={'#'}>Terms of Service</Link>
-                        <Link href={'#'}>Legal</Link>
-                        <Link href={'#'}>Privacy Policy</Link>
-                    </Stack>
-                    <Stack align={'flex-start'}>
-                        <ListHeader>Stay up to date</ListHeader>
-                        <Stack direction={'row'}>
-                            <Input
-                                placeholder={'Your email address'}
-                                bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.100')}
-                                border={0}
-                                _focus={{
-                                    bg: 'whiteAlpha.300',
-                                }}
-                            />
-                            <IconButton
-                                bg={useColorModeValue('green.400', 'green.800')}
-                                color={useColorModeValue('white', 'gray.800')}
-                                _hover={{
-                                    bg: 'green.600',
-                                }}
-                                aria-label="Subscribe"
-                                icon={<BiMailSend />}
-                            />
-                        </Stack>
+                        <Link href={'/termsOfService'}>Terms of Service</Link>
+                        <Link href={'/legal'}>Legal</Link>
+                        <Link href={'/privacy'}>Privacy Policy</Link>
                     </Stack>
                 </SimpleGrid>
             </Container>
